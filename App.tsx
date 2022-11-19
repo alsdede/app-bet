@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+
 import {useFonts} from 'expo-font';
+import Navigation from '_navigation';
 
 export default function App() {
   const [isFontsLoading] =useFonts({
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <>
       <StatusBar style="dark" />
+      <Navigation/>
     </>
   );
 }
