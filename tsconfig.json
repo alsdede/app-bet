@@ -4,9 +4,10 @@
     "strict": true,
     "baseUrl": "./src",
     "paths": {
-      "_*": [
-        "*"
-      ]
+      // This needs to be mirrored in babel.config.js
+      // Components is a directory with sub directories
+      "_components/*": ["/components/*"],
+
     }
   }
 }

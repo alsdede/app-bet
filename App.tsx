@@ -1,7 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 
 import {useFonts} from 'expo-font';
-import Navigation from '_navigation';
+import Navigation from './src/navigation';
+
 
 export default function App() {
   const [isFontsLoading] =useFonts({
